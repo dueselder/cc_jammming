@@ -1,15 +1,16 @@
 import React from 'react';
+import './TrackList.css';
+import List from '@mui/material/List';
 import Track from '../Track/Track';
-import './Tracklist.css';
 
 function Tracklist() {
   return (
-    <div className="tracklist">
+    <List className="tracklist">
       {/* Render Track components here */}
       <Track />
       <Track />
       {/* Add more Track components as needed */}
-    </div>
+    </List>
   );
 }
 
